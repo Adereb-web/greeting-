@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const enteredName = document.getElementById('name').value;
 
         // saving the name in local storage
-        localStorage.setItem('userName' enteredName);
+        localStorage.setItem('userName', enteredName);
 
         // displaying a personalized greeting
         greetingContainer.textContent = `Hello, ${enteredName}! Welcome to my greeting app.`;
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.removeItem('userName');
 
         // updating the greeting message
-        greetingContainer.innerHTML = 'Name Deleted! Please enter another name you will like me to greet.';
+        greetingContainer.innerHTML = 'Name Cleared! Please enter another name you will like me to greet.';
         greetingContainer.style.color = 'rgb(179, 170, 162)';
     });
 });
