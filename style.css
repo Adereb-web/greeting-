@@ -1,42 +1,136 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
 }
 
 .container {
-  text-align: center;
+    background-color: rgb(10, 10, 72);
+    color: white;
+    margin: auto;
+    padding: 8rem 5rem;
+    text-align: center;
 }
 
-label {
-  font-weight: bold;
-  margin-bottom: 10px;
+#greeting-container{
+    color: rgb(26, 26, 0);
+    font-size: 2rem;
 }
 
-input[type="text"] {
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
+h1{
+    font-size: 4rem;
+    margin: 2px;
+    line-height: 3.3rem;
 }
 
-button {
-  padding: 8px 15px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+p{
+    font-size: 1.2rem;
 }
 
-button:hover {
-  background-color: #45a049;
+#name-form{
+    margin: .5rem;
+}
+label{
+    font-size: 1.2rem;
 }
 
-p {
-  font-size: 18px;
-  margin-top: 20px;
+input {
+    text-align: center;
+    font-size: 1.1rem;
+    height: 2rem;
+    width: 21rem;
+    margin: .7rem 0 1rem .5rem;
+    border-radius: 10px;
+    outline-color: rgb(179, 170, 162);
+
+}
+
+button{
+    height: 2.5rem;
+    width: 18rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(179, 170, 162);
+    color: white;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+button:hover{
+    background-color: c;
+}
+
+#clear-button{
+    margin-top: 1rem;
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 2px;
+        line-height: 3rem;
+    }
+
+    #greeting-container {
+        font-size: 1.4rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+    
+    input {
+        text-align: center;
+        height: 1.8rem;
+        width: 16rem;
+        margin: 0.2rem 0;
+        border-radius: 10px;
+        outline-color: rgb(179, 170, 162);
+    }
+
+    button{
+        width: 13rem;
+        margin-top: 0.8rem;
+        font-size: .8rem;
+    }
+
+    #clear-button {
+        margin-top: .4rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .container {
+        padding: 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        line-height: 2.2rem;
+    }
+
+    #greeting-container {
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: .8rem;
+    }
+
+    input {
+        width: 11rem;
+        font-size: .8rem;
+    }
+
 }
