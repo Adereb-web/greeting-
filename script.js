@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const enteredName = document.getElementById('name').value;
 
         // saving the name in local storage
-        localStorage.setItem('userName', enteredName);
+        localStorage.setItem('enteredName');
 
         // displaying a personalized greeting
         greetingContainer.textContent = `Hello, ${enteredName}! Welcome to my greeting app.`;
