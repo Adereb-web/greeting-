@@ -7,7 +7,7 @@ body {
 
 .container {
     background-color: rgb(190, 87, 90);
-    color: teal;
+    color: navy;
     margin: 50px auto;
     padding: 4rem;
     max-width: 600px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #a89c92;
+    background-color: #03254c;
 }
 
 @media (max-width: 600px) {
