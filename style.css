@@ -1,39 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
 }
 
 .container {
-    background-color: rgb(190, 87, 90);
-    color: navy;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark gray text color */
     margin: 50px auto;
     padding: 4rem;
     max-width: 600px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 #greeting-container {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #1e88e5; /* Blue text color */
 }
 
 h1 {
     font-size: 3.5rem;
     margin: 10px 0;
     line-height: 1.3;
+    color: #333; /* Dark gray text color */
 }
 
 p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    color: #666; /* Gray text color */
 }
 
 label {
     font-size: 1.1rem;
     margin-bottom: 10px;
     display: block;
+    color: #333; /* Dark gray text color */
 }
 
 input[type="text"] {
@@ -43,7 +49,7 @@ input[type="text"] {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 10px;
-    border: 1px solid rgb(179, 170, 162);
+    border: 1px solid #ccc; /* Light gray border */
     outline: none;
     padding: 0 10px;
     box-sizing: border-box;
@@ -55,14 +61,14 @@ button {
     font-size: 1.1rem;
     border-radius: 5px;
     border: none;
-    background-color: rgb(179, 170, 162);
-    color: navy;
+    background-color: #1e88e5; /* Blue button color */
+    color: #fff; /* White text color */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #03254c;
+    background-color: #1565c0; /* Darker blue on hover */
 }
 
 @media (max-width: 600px) {
@@ -96,3 +102,108 @@ button:hover {
         font-size: 1rem;
     }
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark gray text color */
+    margin: 50px auto;
+    padding: 4rem;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#greeting-container {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1e88e5; /* Blue text color */
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 10px 0;
+    line-height: 1.3;
+    color: #333; /* Dark gray text color */
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666; /* Gray text color */
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #333; /* Dark gray text color */
+}
+
+input[type="text"] {
+    text-align: center;
+    font-size: 1.1rem;
+    height: 2.5rem;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    outline: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+button {
+    height: 3rem;
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e88e5; /* Blue button color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 3rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #greeting-container {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        font-size: 1rem;
+        height: 2.2rem;
+    }
+
+    button {
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+}
+
