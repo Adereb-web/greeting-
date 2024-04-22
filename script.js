@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const greetingContainer = document.getElementById('greeting-container');
     const nameForm = document.getElementById('name-form');
     const clearButton = document.getElementById('clear-button');
+    const nameInput = document.getElementById('name'); // Get the input field element
 
     // Display personalized greeting
     if (storedName) {
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
 
         // getting the name from the input
-        const enteredName = document.getElementById('name').value;
+        const enteredName = nameInput.value;
 
         // saving the name in local storage
         localStorage.setItem('userName', enteredName);
@@ -30,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Show clear button
         clearButton.style.display = 'inline-block';
+
+        // Clear the form after submitting
+        nameInput.value = ''; // Reset input field value to empty string
     });
 
     // handling the clear button
