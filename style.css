@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    background-color: #fff;
-    color: #333;
+    background-color: #ffd700; /* Gold background */
+    color: #800000; /* Wine text color */
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,26 +22,26 @@ body {
 #greeting-container {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #4CAF50; 
+    color: #800000; /* Wine text color */
 }
 
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #800000; /* Wine text color */
 }
 
 p {
     font-size: 1.1rem;
     margin-bottom: 20px;
-    color: #555;
+    color: #333; /* Dark gray text color */
 }
 
 label {
     font-size: 1.1rem;
     margin-bottom: 10px;
     display: block;
-    color: #333;
+    color: #333; /* Dark gray text color */
 }
 
 input[type="text"] {
@@ -51,7 +51,7 @@ input[type="text"] {
     width: calc(100% - 20px);
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /* Light gray border */
     outline: none;
     padding: 0 10px;
     box-sizing: border-box;
@@ -63,23 +63,23 @@ button {
     font-size: 1.1rem;
     border-radius: 5px;
     border: none;
-    background-color: #4CAF50; 
-    color: #fff;
+    background-color: #ffd700; /* Gold button color */
+    color: #800000; /* Wine text color */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049; 
+    background-color: #daa520; /* Darker gold on hover */
 }
 
 @media (max-width: 600px) {
     .container {
-        padding: 3rem;
+        padding: 30px;
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     #greeting-container {
@@ -96,116 +96,18 @@ button:hover {
 
     input[type="text"] {
         font-size: 1rem;
-        height: 2.2rem;
+        height: 36px;
+        width: calc(100% - 16px);
     }
 
     button {
-        height: 2.8rem;
+        height: 36px;
         font-size: 1rem;
     }
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0; 
-}
 
-.container {
-    background-color: #fff; 
-    color: #333; 
-    margin: 50px auto;
-    padding: 4rem;
-    max-width: 600px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#greeting-container {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #1e88e5; 
-}
-
-h1 {
-    font-size: 3.5rem;
-    margin: 10px 0;
-    line-height: 1.3;
-    color: #333; 
-}
-
-p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #666; 
-}
-
-label {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    display: block;
-    color: #333; 
-}
-
-input[type="text"] {
-    text-align: center;
-    font-size: 1.1rem;
-    height: 2.5rem;
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid #ccc; 
-    outline: none;
-    padding: 0 10px;
-    box-sizing: border-box;
-}
-
-button {
-    height: 3rem;
-    width: 100%;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    border: none;
-    background-color: #1e88e5; 
-    color: #fff; 
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #1565c0; 
-}
-
-@media (max-width: 600px) {
+@media (min-width: 768px) {
     .container {
-        padding: 3rem;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    #greeting-container {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    label {
-        font-size: 1rem;
-    }
-
-    input[type="text"] {
-        font-size: 1rem;
-        height: 2.2rem;
-    }
-
-    button {
-        height: 2.8rem;
-        font-size: 1rem;
+        width: 70%;
     }
 }
-
